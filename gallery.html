@@ -1,373 +1,158 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Student Gallery</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial scale=1.0">
-        <link rel="stylesheet" href="gallery.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    </head>
+  <head>
+    <title>Student Gallery</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <link rel="stylesheet" href="gallery.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
 
-    <body>
-        
-        <nav>
-            <img class="pics" src="logo2.jpeg">
-            <div>
-                <a><i class="material-icons icon" onclick="menu()">menu</i></a>
-                <a href="#"><i class="material-icons icon" style="color: orange;">home</i></a>
-                <div class="menu" id="bar">
-                    <ul>
-                        <i class="material-icons second" onclick="hidemenu()">close</i>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Course</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Gallery</a></li>
-                    </ul>
-                </div>
-
-                <script>
-                    var menulinks=document.getElementById("bar");
-                    function menu(){
-                        menulinks.style.right="0";
-                    }
-                    function hidemenu(){
-                        menulinks.style.right="-300px";
-                    }
-                </script>
-                
-            </div>
-        </nav>
-        
-        
-        <h1>Welcome to Our Student Gallery</h1>
-        <p>A compiled pictures of our brillant students </p>
-
-        <div class="image-container">
-            <div class="image">
-                    <img src="../Images/student1.jpeg" width="100%" id="myimage">
-                    <div id="myModal"class="modal">
-                        <span class="close" id="close">&times;</span>
-                        <img src="" alt=""id="modal-image" class="modal-image">
-                        <div class="text">Mary Jane</div>
-                    </div>
-
-                  
-
-    
-
-            
-                    <img src="../Images/student2.jpeg" width="100%" id="myimage">
-                    <div id="myModal"class="modal">
-                        <span class="close" id="close">&times;</span>
-                        <img src="" alt=""id="modal-image" class="modal-image">
-                        <div class="text">Mary Jane</div>
-                    </div>
-                    <div id="myModal"class="modal">
-                        <span class="close" id="close">&times;</span>
-                        <img src="" alt=""id="modal-image" class="modal-image">
-                        <div class="text">Mary Jane</div>
-                    </div>
-
-    
-
-                
-                    <img src="../Images/student5.jpeg"width="100%" id="myimage">
-                    <div id="myModal"class="modal">
-                        <span class="close" id="close">&times;</span>
-                        <img src="" alt=""id="modal-image" class="modal-image">
-                        <div class="text">Mary Jane</div>
-                    </div>
-
-    
-
-                    <img src="../Images/student6.jpeg"width="100%" id="myimage">
-                    <div id="myModal"class="modal">
-                        <span class="close" id="close">&times;</span>
-                        <img src="" alt=""id="modal-image" class="modal-image">
-                        <div class="text">Mary Jane</div>
-                    </div>
-
-    
-
-                    <img src="../Images/student4.jpeg"width="100%" id="myimage">
-                    <div id="myModal"class="modal">
-                        <span class="close" id="close">&times;</span>
-                        <img src="" alt=""id="modal-image" class="modal-image">
-                        <div class="text">Mary Jane</div>
-                    </div>
-
-    
-
-                    <img src="../Images/student2.jpeg" width="100%" id="myimage">
-                    <div id="myModal"class="modal">
-                        <span class="close" id="close">&times;</span>
-                        <img src="" alt=""id="modal-image" class="modal-image">
-                        <div class="text">Mary Jane</div>
-                    </div>
-
-                    <div id="myModal"class="modal">
-                        <span class="close" id="close">&times;</span>
-                        <img src="" alt=""id="modal-image" class="modal-image">
-                        <div class="text">Mary Jane</div>
-                    </div>
-    
-
-                    <img src="../Images/student3.jpeg" width="100%" id="myimage">
-                    <div id="myModal"class="modal">
-                        <span class="close" id="close">&times;</span>
-                        <img src="" alt=""id="modal-image" class="modal-image">
-                        <div class="text">Mary Jane</div>
-                    </div>
-
-    
-
-                    <img src="../Images/student6.jpeg" width="100%" id="myimage">
-                    <div id="myModal"class="modal">
-                        <span class="close" id="close">&times;</span>
-                        <img src="" alt=""id="modal-image" class="modal-image">
-                        <div class="text">Mary Jane</div>
-                    </div>
-
-    
-
-                    <img src="../Images/student2.jpeg" width="100%" id="myimage">
-                    <div id="myModal"class="modal">
-                        <span class="close" id="close">&times;</span>
-                        <img src="" alt=""id="modal-image" class="modal-image">
-                        <div class="text">Mary Jane</div>
-                    </div>
-
-    
-
-            </div>
-
-            <div class="image">
-                <img src="../Images/student3.jpeg"width="100%" id="myimage">
-                <div id="myModal"class="modal">
-                        <span class="close" id="close">&times;</span>
-                        <img src="" alt=""id="modal-image" class="modal-image">
-                        <div class="text">Mary Jane</div>
-                </div>
-
-                <img src="../Images/student6.jpeg"width="100%" id="myimage">
-                <div id="myModal"class="modal">
-                        <span class="close" id="close">&times;</span>
-                        <img src="" alt=""id="modal-image" class="modal-image">
-                        <div class="text">Mary Jane</div>
-                </div>
-
-                <img src="../Images/student4.jpeg"width="100%" id="myimage">
-                <div id="myModal"class="modal">
-                        <span class="close" id="close">&times;</span>
-                        <img src="" alt=""id="modal-image" class="modal-image">
-                        <div class="text">Mary Jane</div>
-                </div>
-
-                <img src="../Images/student1.jpeg"width="100%" id="myimage">
-                <div id="myModal"class="modal">
-                        <span class="close" id="close">&times;</span>
-                        <img src="" alt=""id="modal-image" class="modal-image">
-                        <div class="text">Mary Jane</div>
-                </div>
-
-                <img src="../Images/student5.jpeg"width="100%" id="myimage">
-                <div id="myModal"class="modal">
-                        <span class="close" id="close">&times;</span>
-                        <img src="" alt=""id="modal-image" class="modal-image">
-                        <div class="text">Mary Jane</div>
-                </div>
-
-                <img src="../Images/student1.jpeg" width="100%" id="myimage">
-                <div id="myModal"class="modal">
-                        <span class="close" id="close">&times;</span>
-                        <img src="" alt=""id="modal-image" class="modal-image">
-                        <div class="text">Mary Jane</div>
-                </div>
-
-                <img src="../Images/doctor.jpeg" width="100%">
-                <div id="myModal"class="modal">
-                        <span class="close" id="close">&times;</span>
-                        <img src="" alt=""id="modal-image" class="modal-image">
-                        <div class="text">Mary Jane</div>
-                </div>
-                <img src="../Images/student6.jpeg" width="100%" id="myimage">
-                <div id="myModal"class="modal">
-                        <span class="close" id="close">&times;</span>
-                        <img src="" alt=""id="modal-image" class="modal-image">
-                        <div class="text">Mary Jane</div>
-                </div>
-
-                
-            </div>
-
-            <div class="image">
-                <img src="../Images/student1.jpeg"width="100%" id="myimage">
-                <div id="myModal"class="modal">
-                        <span class="close" id="close">&times;</span>
-                        <img src="" alt=""id="modal-image" class="modal-image">
-                        <div class="text">Mary Jane</div>
-                </div>
-
-                <img src="../Images/student5.jpeg"width="100%" id="myimage">
-                <div id="myModal"class="modal">
-                        <span class="close" id="close">&times;</span>
-                        <img src="" alt=""id="modal-image" class="modal-image">
-                        <div class="text">Mary Jane</div>
-                </div>
-
-                <img src="../Images/student3.jpeg"width="100%" id="myimage">
-                <div id="myModal"class="modal">
-                        <span class="close" id="close">&times;</span>
-                        <img src="" alt=""id="modal-image" class="modal-image">
-                        <div class="text">Mary Jane</div>
-                </div>
-
-                <img src="../Images/student4.jpeg"width="100%" id="myimage">
-                <div id="myModal"class="modal">
-                        <span class="close" id="close">&times;</span>
-                        <img src="" alt=""id="modal-image" class="modal-image">
-                        <div class="text">Mary Jane</div>
-                </div>
-
-                <img src="../Images/student1.jpeg"width="100%" id="myimage">
-                <div id="myModal"class="modal">
-                        <span class="close" id="close">&times;</span>
-                        <img src="" alt=""id="modal-image" class="modal-image">
-                        <div class="text">Mary Jane</div>
-                </div>
-
-                <img src="../Images/student4.jpeg" width="100%" id="myimage">
-                <div id="myModal"class="modal">
-                        <span class="close" id="close">&times;</span>
-                        <img src="" alt=""id="modal-image" class="modal-image">
-                        <div class="text">Mary Jane</div>
-                </div>
-
-                <img src="../Images/student5.jpeg" width="100%" id="myimage">
-                <div id="myModal"class="modal">
-                        <span class="close" id="close">&times;</span>
-                        <img src="" alt=""id="modal-image" class="modal-image">
-                        <div class="text">Mary Jane</div>
-                </div>
-
-                <img src="../Images/student6.jpeg" width="100%" id="myimage">
-                <div id="myModal"class="modal">
-                        <span class="close" id="close">&times;</span>
-                        <img src="" alt=""id="modal-image" class="modal-image">
-                        <div class="text">Mary Jane</div>
-                </div>
-
-                <img src="../Images/student1.jpeg" width="100%" id="myimage">
-                <div id="myModal"class="modal">
-                        <span class="close" id="close">&times;</span>
-                        <img src="" alt=""id="modal-image" class="modal-image">
-                        <div class="text">Mary Jane</div>
-                </div>
-
-            </div>
-
-            <div class="image">
-                <img src="../Images/student3.jpeg"width="100%" id="myimage">
-                <div id="myModal"class="modal">
-                        <span class="close" id="close">&times;</span>
-                        <img src="" alt=""id="modal-image" class="modal-image">
-                        <div class="text">Mary Jane</div>
-                </div>
-
-                <img src="../Images/student6.jpeg"width="100%" id="myimage">
-                <div id="myModal"class="modal">
-                        <span class="close" id="close">&times;</span>
-                        <img src="" alt=""id="modal-image" class="modal-image">
-                        <div class="text">Mary Jane</div>
-                </div>
-
-                <img src="../Images/student4.jpeg"width="100%" id="myimage">
-                <div id="myModal"class="modal">
-                        <span class="close" id="close">&times;</span>
-                        <img src="" alt=""id="modal-image" class="modal-image">
-                        <div class="text">Mary Jane</div>
-                </div>
-
-                <img src="../Images/student1.jpeg"width="100%" id="myimage">
-                <div id="myModal"class="modal">
-                        <span class="close" id="close">&times;</span>
-                        <img src="" alt=""id="modal-image" class="modal-image">
-                        <div class="text">Mary Jane</div>
-                </div>
-
-                <img src="../Images/student5.jpeg"width="100%" id="myimage">
-                <div id="myModal"class="modal">
-                        <span class="close" id="close">&times;</span>
-                        <img src="" alt=""id="modal-image" class="modal-image">
-                        <div class="text">Mary Jane</div>
-                </div>
-
-                <img src="../Images/student1.jpeg" width="100%" id="myimage">
-                <div id="myModal"class="modal">
-                        <span class="close" id="close">&times;</span>
-                        <img src="" alt=""id="modal-image" class="modal-image">
-                        <div class="text">Mary Jane</div>
-                </div>
-
-                <img src="../Images/doctor.jpeg" width="100%" id="myimage">
-                <div id="myModal"class="modal">
-                        <span class="close" id="close">&times;</span>
-                        <img src="" alt=""id="modal-image" class="modal-image">
-                        <div class="text">Mary Jane</div>
-                </div>
-                <img src="../Images/student6.jpeg" width="100%" id="myimage">
-                <div id="myModal"class="modal">
-                        <span class="close" id="close">&times;</span>
-                        <img src="" alt=""id="modal-image" class="modal-image">
-                        <div class="text">Mary Jane</div>
-                </div>
-
-                
-            </div>
-
-            <script>
-                var originalImage=document.getElementById("myimage");
-                // originalImage.addEventListener('click')
-                // function getModal(modaljav){
-                //     var modal=document.getElementById(modaljav);
-                // }
-
-                var modal=document.getElementById("myModal");
-                //lets get both images
-                
-                var modalImage=document.getElementById("modal-image");
-                var text=document.getElementById("text");
-
-                var closeButton=document.getElementById("close");
-
-
-
-                originalImage.addEventListener('dblclick',function(){clickImage(modal)});
-                closeButton.addEventListener('click',function(){closeModal(modal)});
-                function clickImage(image){
-                    image.style.display="block";
-                    //the image you click becomes your image
-                    modalImage.src=originalImage.src;
-                    
-                    
-
-                }
-                function closeModal(image){
-                    image.style.display="none";
-                }
-            </script>
+  <body>
+    <nav>
+      <img class="pics" src="logo2.jpeg" />
+      <div>
+        <a><i class="material-icons icon" onclick="menu()">menu</i></a>
+        <a href="#"
+          ><i class="material-icons icon" style="color: orange">home</i></a
+        >
+        <div class="menu" id="bar">
+          <ul>
+            <i class="material-icons second" onclick="hidemenu()">close</i>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Course</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Gallery</a></li>
+          </ul>
         </div>
 
-        <!-- <script>
-            //lets use event listener to talk to all of them at once.This helps in debugging and prototyping
-            var image=document.getElementById("myimage");
-            image.addEventListener('click',function(){hover(image)});
-            function hover(image){
-                image.style.width="120%";
-                
-            }
-        </script> -->
-    </body>
+        <script>
+          var menulinks = document.getElementById("bar");
+          function menu() {
+            menulinks.style.right = "0";
+          }
+          function hidemenu() {
+            menulinks.style.right = "-300px";
+          }
+        </script>
+      </div>
+    </nav>
+
+    <h1>Welcome to Our Student Gallery</h1>
+    <p>A compiled pictures of our brillant students</p>
+
+    <div class="image-container">
+      <div class="image">
+        <img src="../Images/student1.jpeg" width="100%" id="myimage" />
+        <div id="myModal" class="modal">
+          <span class="close" id="close">&times;</span>
+          <img src="" alt="" id="modal-image" class="modal-image" />
+          <div class="text">Simon Ryest</div>
+        </div>
+
+        <img src="../Images/student2.jpeg" width="100%" id="myimage" />
+
+        <img src="../Images/student5.jpeg" width="100%" id="myimage" />
+
+        <img src="../Images/student6.jpeg" width="100%" id="myimage" />
+
+        <img src="../Images/student4.jpeg" width="100%" id="myimage" />
+
+        <img src="../Images/student2.jpeg" width="100%" id="myimage" />
+
+        <img src="../Images/student3.jpeg" width="100%" id="myimage" />
+
+        <img src="../Images/student6.jpeg" width="100%" id="myimage" />
+
+        <img src="../Images/student2.jpeg" width="100%" id="myimage" />
+      </div>
+
+      <div class="image">
+        <img src="../Images/student3.jpeg" width="100%" id="myimage" />
+
+        <img src="../Images/student6.jpeg" width="100%" id="myimage" />
+
+        <img src="../Images/student4.jpeg" width="100%" id="myimage" />
+
+        <img src="../Images/student1.jpeg" width="100%" id="myimage" />
+
+        <img src="../Images/student5.jpeg" width="100%" id="myimage" />
+
+        <img src="../Images/student1.jpeg" width="100%" id="myimage" />
+
+        <img src="../Images/doctor.jpeg" width="100%" />
+
+        <img src="../Images/student6.jpeg" width="100%" id="myimage" />
+      </div>
+
+      <div class="image">
+        <img src="../Images/student1.jpeg" width="100%" id="myimage" />
+
+        <img src="../Images/student5.jpeg" width="100%" id="myimage" />
+
+        <img src="../Images/student3.jpeg" width="100%" id="myimage" />
+
+        <img src="../Images/student4.jpeg" width="100%" id="myimage" />
+
+        <img src="../Images/student1.jpeg" width="100%" id="myimage" />
+
+        <img src="../Images/student4.jpeg" width="100%" id="myimage" />
+
+        <img src="../Images/student5.jpeg" width="100%" id="myimage" />
+
+        <img src="../Images/student6.jpeg" width="100%" id="myimage" />
+
+        <img src="../Images/student1.jpeg" width="100%" id="myimage" />
+      </div>
+
+      <div class="image">
+        <img src="../Images/student3.jpeg" width="100%" id="myimage" />
+
+        <img src="../Images/student6.jpeg" width="100%" id="myimage" />
+
+        <img src="../Images/student4.jpeg" width="100%" id="myimage" />
+
+        <img src="../Images/student1.jpeg" width="100%" id="myimage" />
+
+        <img src="../Images/student5.jpeg" width="100%" id="myimage" />
+
+        <img src="../Images/student1.jpeg" width="100%" id="myimage" />
+
+        <img src="../Images/doctor.jpeg" width="100%" id="myimage" />
+
+        <img src="../Images/student6.jpeg" width="100%" id="myimage" />
+      </div>
+
+      <script>
+        var originalImage = document.getElementById("myimage");
+
+        var modal = document.getElementById("myModal");
+
+        var modalImage = document.getElementById("modal-image");
+        var text = document.getElementById("text");
+
+        var closeButton = document.getElementById("close");
+
+        originalImage.addEventListener("dblclick", function () {
+          clickImage(modal);
+        });
+        closeButton.addEventListener("click", function () {
+          closeModal(modal);
+        });
+        function clickImage(image) {
+          image.style.display = "block";
+
+          modalImage.src = originalImage.src;
+        }
+        function closeModal(image) {
+          image.style.display = "none";
+        }
+      </script>
+    </div>
+  </body>
 </html>
